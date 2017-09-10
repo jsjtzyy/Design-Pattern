@@ -1,8 +1,8 @@
 # Design-Pattern
 
-creational design pattern:     Singleton, Fatory
+creational design pattern:     Singleton, Fatory, Builder
 
-structural design pattern:     Adpator
+structural design pattern:     Adpator, Bridge, Composite, Decorator, Facade, Proxy
 
-behaviorial design pattern:    Observer, State
+behaviorial design pattern:    Observer, State, Chain of Resposibility, Command, Iterator, Template Method
 

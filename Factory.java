@@ -3,7 +3,7 @@
 *            |                    /    |    \
 *         Factory   ------->    Computer Phone  Pad
 *                  (get/create)
-/
+*/
 
 public abstract class Product{
     private int price;

@@ -39,6 +39,9 @@ public final class Animal {
     public String getFavoriteFood(int index) { 
         return favoriteFoods.get(index);
     } 
+    
+    
+    
 }
 
 // Design AnimalBuilder class based on Builder Pattern
@@ -76,3 +79,9 @@ public class Builder{
         Animal flamingo = new AnimalBuilder() .setFavoriteFoods(Arrays.asList("algae","insects")) .setSpecies("flamingo").build();
     }
 }
+
+/********************************** Pros and Cons ****************************************/
+Pros:
+    每次设置属性的时候，都是具名的方法操作，是开发人员更容易使用，并且不需要给宿主类增加相应的setXxx方法，这样子，这个宿主类在创建之后是不可以修改的，在一些安全模式比较高的程序中，这点也是很重要的
+Cons:
+    在使用构建器的时候，必须利用另外一个类来实例化另外一个类，这样子会使创建的时候创建更多的对象。这样子会损耗一定的性能.
